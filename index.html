@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>In-Plant Training presentations</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/serif.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					
+						<img src="img/reglog.jpg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					
+					<h3>PYTHON</h3><br>
+					<p>
+						
+						<small>IN-PLANT TRINING INSTRUCTED BY <b>SKILL DISK</b> <br> Completed by <b>SUNIL KUMAR P</b> </small>
+					</p>
+				</section>
+			<section>
+				<section>
+					
+					<h2>ORIGIN OF<br> <b>PYTHON</b></h2>
+					<img src="img/python-logo.png" alt="">
+					<p>
+						
+					</p>
+				</section>
+				<section>
+					
+					<h2>WHY USE<br> <b>PYTHON?</b></h2>
+					<img src="img/python-blog.jpg" alt="">
+					<p>
+						
+					</p>
+				</section>
+			</section>
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>The Benefits and Negatives of Python</h2>
+						
+					</section>
+					<section>
+						<h2>Benefits of PYTHON</h2>
+						
+					</section>
+					<section>
+						<h2>Negatives of Python</h2>
+					
+						
+					</section>
+				</section>
+
+				<section>
+					<h2>Difference Between Python, Java, And C++</h2>
+					
+				</section>
+				<section>
+					<section>
+						<h2>Python Data Types</h2>
+					</section>
+					<section data-auto-animate>
+						<h2 data-id="code-title">String Data Type</h2>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+							a_str = 'Hello World' 
+							print(a_str) #output will be whole string. 
+						Hello World 
+							print(a_str[0]) #output will be first character.
+						H
+							print(a_str[0:5]) #output will be first five characters.
+						Hello 
+	
+						</code></pre>
+						<p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+					</section>
+					<section data-auto-animate>
+						<h2 data-id="code-title">Numbers data type</h2>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="1-4"><script type="text/template">
+							int_num = 10 #int value
+							float_num = 10.2 #float value 
+						   complex_num = 3.14j #complex value
+							long_num = 1234567L #long value 
+						   
+						</script></code></pre>
+					</section>
+					<section data-auto-animate>
+						<h2 data-id="code-title">List Data Type</h2>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="1,3,4,6,8,10|5,7,9,11"><script type="text/template">
+							list = [123,'abcd',10.2,'d']
+							 #can be an array of any data type or single data type. 
+							list1 = ['hello','world']
+							 print(list) #will output whole list. 
+						[123,'abcd',10.2,'d'] 
+							print(list[0:2]) #will output first two element of list. 
+						[123,'abcd']
+							 print(list1 * 2) #will gave list1 two times. 
+						['hello','world','hello','world'] 
+							print(list + list1) #will gave concatenation of both the lists. 
+						[123,'abcd',10.2,'d','hello','world'] 
+						   
+						</script></code></pre>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Dictionary Data Type</h2>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers=""><script type="text/template">
+							dic={'name':'red','age':10} 
+							print(dic)
+							 #will output all the key-value pairs.
+							{'name':'red','age':10} 
+							print(dic['name'])
+							 #will output only value with 'name' key. 'red' 
+							print(dic.values()) 
+							 #will output list of values in dic. 
+							['red',10] 
+							print(dic.keys())
+							 #will output list of keys.
+							['name','age']
+
+						</script></code></pre>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Tuple Data Type</h2>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers=""><script type="text/template">
+							tuple = (123,'hello') 
+							tuple1 = ('world') 
+							print(tuple) #will output whole tuple.
+							 (123,'hello')
+							 print(tuple[0]) #will output first value. 
+							(123)
+							 print(tuple + tuple1) #will output
+							 (123,'hello','world') 
+							tuple[1]='update' #this will give you error.
+							
+						   
+						</script></code></pre>
+					</section>
+	
+					
+				</section>
+
+				
+<section>
+	<section>
+		<h2>CONDITIONAL and LOOPING STATEMENT</h2>
+	</section>
+	<section>
+		<h2 data-id="code-title">if, elif, and else</h2>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers=""><script type="text/template">
+							number = 5
+							if number > 2:
+							print("Number is bigger than 2.")
+							elif number < 2: # Optional clause (you can have multiple elifs)
+							print("Number is smaller than 2.")
+							else: # Optional clause (you can only have one else)
+							print("Number is 2.")
+														
+													
+						</script></code></pre>
+	</section>
+	<section>
+		<h2 data-id="code-title">for loop</h2>
+		
+			<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers=""><script type="text/template">
+				fruits = ["apple", "banana", "cherry"]
+				for x in fruits:
+				print(x)
+				#output
+				apple
+				banana
+				cherry	
+										
+			</script></code></pre>
+										
+									
+		
+
+	</section>
+	<section>
+		<h2 data-id="code-title">while loop</h2>
+		
+			<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers=""><script type="text/template">
+				i = 1
+				while i < 6:
+				print(i)
+				i += 1
+				#output
+				1
+				2
+				3
+				4
+				5
+										
+			</script></code></pre>
+										
+									
+		
+
+	</section>
+</section>
+<section>
+	<h1>END</h1>
+</section>
+<section>
+	<h1>THANKYOU</h1>
+</section>
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
